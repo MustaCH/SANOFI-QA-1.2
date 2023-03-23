@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "logo": "../img/farmacity-logo.png",
+    "logo": "img/farmacity-logo.png",
     "pregunta": "¿Que te parecio la atención del cajero?",
     "caritas": "Si",
     "cantCaritas": 5,
@@ -13,7 +13,7 @@
   },
   {
     "id": "2",
-    "logo": "../img/ford-logo.png",
+    "logo": "img/ford-logo.png",
     "pregunta": "¿Que te parecio la atención del vendedor?",
     "caritas": "Si",
     "cantCaritas": 4,
