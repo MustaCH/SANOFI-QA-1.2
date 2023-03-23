@@ -18,7 +18,7 @@ function find_client(array) {
 
 btn_acceder.addEventListener("click", async () => {
   try {
-    const response = await fetch("../data/data.json");
+    const response = await fetch("data/data.json");
     const data = await response.json();
     filtrado = find_client(data);
     createStep1(filtrado);
