@@ -23,7 +23,7 @@
   },
   {
     "id": "3",
-    "logo": "../img/sanofi-logo.png",
+    "logo": "img/sanofi-logo.png",
     "pregunta": "¿Que te parece el servicio de Concierge?",
     "caritas": "Si",
     "cantCaritas": 4,
