@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "logo": "../img/farmacity-logo.png",
+    "pregunta": "¿Que te parecio la atención del cajero?",
+    "caritas": "Si",
+    "cantCaritas": 5,
+    "botonera": "Si",
+    "subpregunta": "¿Cual es el principal motivo?",
+    "cantBotones": 5,
+    "botones": "<button id='q1' class='option'>ATENCIÓN</button><button id='q2' class='option'>AGILIDAD</button><button id='q3' class='option'>VELOCIDAD</button><button id='q4' class='option'>TRATO</button><button id='q5' class='option'>OTRO</button>",
+    "cajaTexto": "No"
+  },
+  {
+    "id": "2",
+    "logo": "../img/ford-logo.png",
+    "pregunta": "¿Que te parecio la atención del vendedor?",
+    "caritas": "Si",
+    "cantCaritas": 4,
+    "botonera": "No",
+    "cajaTexto": "Si",
+    "mensaje": "¿Te gustaría ampliarnos tu experiencia?"
+  },
+  {
+    "id": "3",
+    "logo": "../img/sanofi-logo.png",
+    "pregunta": "¿Que te parece el servicio de Concierge?",
+    "caritas": "Si",
+    "cantCaritas": 4,
+    "botonera": "Si",
+    "subpregunta": "¿Cual es el principal motivo de tu opinion?",
+    "botones": "<button id='q1' class='option'>ATENCIÓN</button><button id='q2' class='option'>AGILIDAD</button><button id='q3' class='option'>FACILIDAD</button><button id='q4' class='option'>ESPERA</button><button id='q5' class='option'>HORARIOS</button>",
+    "cajaTexto": "Si",
+    "mensaje": "¿Te gustaría dejarnos algún comentario adicional?"
+  }
+]
