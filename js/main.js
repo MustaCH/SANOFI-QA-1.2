@@ -224,9 +224,9 @@ ${client.pregunta}
     clearTimeout(step2_TO3);
   });
 
-  let step2_TO1 = setTimeout("createStep1(filtrado)", 6000);
-  let step2_TO2 = setTimeout("step2.remove()", 6000);
-  let step2_TO3 = setTimeout("pushUser()", 6000);
+  let step2_TO1 = setTimeout("createStep1(filtrado)", 60000);
+  let step2_TO2 = setTimeout("step2.remove()", 60000);
+  let step2_TO3 = setTimeout("pushUser()", 60000);
 }
 
 function createStep3(array) {
@@ -264,9 +264,9 @@ function createStep3(array) {
     clearTimeout(step3_TO2);
     clearTimeout(step3_TO3);
   });
-  let step3_TO1 = setTimeout("createStep1(filtrado)", 5000);
-  let step3_TO2 = setTimeout("step3.remove()", 5000);
-  let step3_TO3 = setTimeout("pushUser();", 5000);
+  let step3_TO1 = setTimeout("createStep1(filtrado)", 120000);
+  let step3_TO2 = setTimeout("step3.remove()", 120000);
+  let step3_TO3 = setTimeout("pushUser();", 120000);
 }
 
 function pushUser() {
@@ -278,6 +278,9 @@ function pushUser() {
   aspect = "";
   comment = "";
   fecha = new Date();
+  step1.remove();
+  step2.remove();
+  step3.remove();
 }
 
 function createGreeting() {
